@@ -77,7 +77,7 @@ header {
     display: flex;
     align-items: center;
     padding: 2rem 1.5rem;
-    background-color: #E6EAEF;
+    background-color: #F4F6FF;
 }
 
 .banner_img {
@@ -94,25 +94,26 @@ header {
 }
 
 .banner_text h1 {
+    text-transform: uppercase;
     padding: 2rem 0;
 }
 
 button {
-    width: 80%;
+    width: 70%;
     height: 3rem;
     margin: 2rem 0;
     padding: 0.5rem auto;
-    background-color: #9B9B9B;
-    color: #FFFFFF;
-    border: 2px solid #9B9B9B;
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    border: 2px solid #4A4A4A;
     font-weight: 700;
-    transition: all 0.5s ease-out 0.2s;
 }
 
 button:hover {
+    border: 2px sold #E6EAEF;
     box-shadow: 2px 1px 1px #9B9B9B;
     color: #4A4A4A;
-    background-color: #E6EAEF;
+    background-color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -195,6 +196,7 @@ button:hover {
 }
 
 .course_section h1 {
+    text-transform: uppercase;
     padding-bottom: 2rem;
     text-align: center;
 }
@@ -231,4 +233,56 @@ button:hover {
 
 .course_text h2, p {
     padding-bottom: 0.5rem;
+}
+
+.thesis {
+    position: relative;
+    top: 4rem;
+    padding: 2rem 0;
+    padding-left: 1.5rem;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.thesis h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.thesis_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.thesis_main {
+    width: 60%;
+    padding-right: 1.5rem;
+}
+
+.thesis_main video {
+    width: 100%;
+}
+
+.thesis_main h2 {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.thesis_extra {
+    width: 40%;
+}
+
+footer {
+    position: relative;
+    top: 4rem;
+    height: 5rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+}
+
+.TandP {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
